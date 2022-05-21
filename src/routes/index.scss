@@ -1,0 +1,33 @@
+body {
+    padding-top:12px;
+    padding-bottom: 12px;
+    padding-left: Max(3vw,12px);
+    padding-right: Max(3vw, 12px);
+    header {
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    nav {
+    display: flex;
+    background-color: #e8e8e8;
+    padding: 0.7rem;
+    border-radius: 40px;
+    justify-content: space-between;
+    flex: 1;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    input {
+        border: none;
+        background: none;
+        outline: none;
+        cursor: pointer;
+    }
+    }
+    .repoIcon {
+        margin-left: 5px;
+        font-size: 2rem;
+    }
+  }
+  .noResultFound{
+      font-size: 20px;
+  }
+}

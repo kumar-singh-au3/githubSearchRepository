@@ -1,0 +1,21 @@
+.favouritesPage {
+    .topBar{
+        display: flex;
+        justify-content: space-between;
+
+        input{
+            display: none;
+        }
+
+        a{
+            text-decoration: none;
+            color: inherit;
+        }
+        .iconLabel{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            cursor: pointer;
+        }
+    }
+}
